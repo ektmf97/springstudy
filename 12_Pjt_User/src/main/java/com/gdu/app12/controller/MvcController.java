@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MvcController {
 	
-	@GetMapping("/")
+  // 2개 요청 모두 웰컴페이지로 처리
+	@GetMapping(value={"/", "/index.do"})
 	public String welcome() {
 		return "index";
 	}

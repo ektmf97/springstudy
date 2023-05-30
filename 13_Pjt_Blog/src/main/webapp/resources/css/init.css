@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* 폰트규칙 (편의상 모든글꼴에 지정/ 골라서 지정도 가능) */
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  color: #121212;
+}
